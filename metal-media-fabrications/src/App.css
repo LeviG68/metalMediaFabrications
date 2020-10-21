@@ -1,0 +1,87 @@
+.App {
+  /* text-align: center; */
+}
+
+/* css for active class */
+
+.active {
+  font-weight: bolder;
+}
+
+nav ul {
+  font-size: var(--fontsize-nav);
+  /* text-align: right; */
+  /* display: inline; */
+  /* color: white !important; */
+  padding: 8px;
+}
+
+nav ul li {
+  float: right;
+  text-align: center;
+  display: inline;
+  padding: 12px;
+  padding-right: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.headLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 1200px;
+}
+
+.condiv {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* background-image: linear-gradient(white, orange); */
+}
+
+p {
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#Img {
+  height: 380px;
+  width: 320px;
+  padding: 7px;
+}
+
+.social {
+  background: #c7c7c7;
+  text-align: center;
+  position: center;
+  /* margin-top: 20px; */
+  /* display: flexbox; */
+  bottom: 80px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+a.Facebook.social {
+  padding-right: 50px;
+  /* font-size: 25px; */
+  color: black;
+}
+a.Email.social {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+}
+a.Instagram.social {
+  padding-left: 50px;
+  color: black;
+}
+
+.social :hover {
+  color: #ed7802;
+}
+.copyright {
+  font-size: small;
+  padding-top: 10px;
+}
