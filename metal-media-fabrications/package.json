@@ -1,5 +1,6 @@
 {
   "name": "metal-media-fabrications",
+  "homepage": "https://metalmediafab.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
