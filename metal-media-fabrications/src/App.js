@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from'./content/Home';
 import Fabrications from './content/Fabrications';
 import Art from './content/Art';
+import Contact from './content/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -26,6 +27,10 @@ function App() {
 
     <Route exact path="/Art">
     <Art />
+    </Route>
+
+    <Route exact path="/Contact">
+    <Contact/>
     </Route>
 
     </div>

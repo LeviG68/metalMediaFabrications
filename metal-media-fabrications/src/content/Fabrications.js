@@ -31,6 +31,10 @@ import img22 from '../images/project-images/Rolled spendle top view.jpg';
 import img23 from '../images/project-images/Shelf stand.jpg';
 import img24 from '../images/project-images/Truck bed.jpg';
 import img26 from '../images/project-images/Stargate.jpg';
+import img27 from '../images/project-images/logRack.jpg';
+import img28 from '../images/project-images/metalStickRailing.jpg'
+import img29 from '../images/project-images/newBuildStaircase.jpg'
+import Social from './Social';
 
 function App () {
     return (
@@ -47,62 +51,70 @@ function App () {
         <SimpleReactLightbox>
             <SRLWrapper>
     
-                <img id="Img" src={img00} alt="Door Handle" />    
+                <img id="Img" src={img28} alt="" />
 
-                <img id="Img" src={img01} alt="2nd Level railing" />
+                <img id="Img" src={img00} alt="" />    
+
+                <img id="Img" src={img01} alt="" />
         
-                <img id="Img" src={img02} alt="Twin Bunk beds" />
+                <img id="Img" src={img02} alt="" />
 
-                <img id="Img" src={img25} alt="Twin Bunk bed mocked up before paint!" />
+                <img id="Img" src={img29} slt="" />
 
-                <img id="Img" src={img03} alt="2nd Level railing" />
+                <img id="Img" src={img25} alt="" />
+
+                <img id="Img" src={img03} alt='' />
     
-                <img id="Img" src={img04} alt="2nd Level railing" />
+                <img id="Img" src={img04} alt="" />
         
-                <img id="Img" src={img05} alt="2nd Level railing" />
+                <img id="Img" src={img05} alt="" />
     
-                <img id="Img" src={img06} alt="2nd Level railing" />
+                <img id="Img" src={img06} alt="" />
     
-                <img id="Img" src={img07} alt="2nd Level railing" />
+                <img id="Img" src={img07} alt="" />
      
-                <img id="Img" src={img08} alt="2nd Level railing" />
+                <img id="Img" src={img08} alt="" />
         
-                <img id="Img" src={img09} alt="2nd Level railing" />
+                <img id="Img" src={img09} alt="" />
     
-                <img id="Img" src={img10} alt="2nd Level railing" />
+                <img id="Img" src={img10} alt="" />
 
-                <img id="Img" src={img11} alt="2nd Level railing" />
+                <img id="Img" src={img11} alt="" />
         
-                <img id="Img" src={img12} alt="2nd Level railing" />
+                <img id="Img" src={img12} alt="" />
             
-                <img id="Img" src={img13} alt="2nd Level railing" />
+                <img id="Img" src={img13} alt="" />
                 
-                <img id="Img" src={img14} alt="2nd Level railing" />
+                <img id="Img" src={img14} alt="" />
                 
-                <img id="Img" src={img15} alt="2nd Level railing" />
+                <img id="Img" src={img15} alt="" />
             
-                <img id="Img" src={img16} alt="2nd Level railing" />
+                <img id="Img" src={img16} alt="" />
              
-                <img id="Img" src={img17} alt="2nd Level railing" />
+                <img id="Img" src={img17} alt="" />
                 
-                <img id="Img" src={img18} alt="2nd Level railing" />
+                <img id="Img" src={img18} alt="" />
             
-                <img id="Img" src={img19} alt="Park bench built for the Town of Troy,MT" />
+                <img id="Img" src={img19} alt="" />
                 
-                <img id="Img" src={img20} alt="Hanging Pot holder" />
+                <img id="Img" src={img20} alt="" />
         
-                <img id="Img" src={img21} alt="Queen bed frame" />
+                <img id="Img" src={img21} alt="" />
             
-                <img id="Img" src={img22} alt="Rolled spendle railing top view" />
+                <img id="Img" src={img22} alt="" />
                 
-                <img id="Img" src={img23} alt="Shelf stand" />
+                <img id="Img" src={img23} alt="" />
                 
-                <img id="Img" src={img24} alt="Queen bed frame ready to Ship!!" />
+                <img id="Img" src={img24} alt="" />
 
-                <img id="Img" src={img26} alt="Garden gate with latch!!" />
+                <img id="Img" src={img26} alt="" />
+
+                <img id="Img" src={img27} alt="" />
             
             </SRLWrapper>
         </SimpleReactLightbox>
+        
+        <Social/>
         
         </div>
     )

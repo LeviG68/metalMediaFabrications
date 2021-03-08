@@ -1,43 +1,45 @@
 
 import React, { Component } from 'react';
+import Logo from './Logo';
+import Navbar from '../components/Navbar';
+import Social from '../content/Social';
 
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope} from '@fortawesome/free-regular-svg-icons';
+import contactImg from '../images/contactPage.jpeg';
 
 
-class Social extends Component {
+class Contact extends Component {
 
     render () {
 
         return (
+            <div className='contacthead'>
+                <div className='contact'>
 
-            <div className='social'>
-            
-            <a
-                href='https://www.facebook.com/Metal-Media-Fabrication-LLC-113421187102489'
-                className="Facebook social"
-                >
-                <FontAwesomeIcon icon={faFacebook} size='4x' />
-            </a>
-            <a
-                href='mailto:metalmediafab@gmail.com'
-                className="Email social"
-                >
-                <FontAwesomeIcon icon={faEnvelope} size='4x' />
-            </a>
-            <a
-                href='https://www.instagram.com/metal_media_fab/?hl=en'
-                className="Instagram social"
-                >
-                <FontAwesomeIcon icon={faInstagram} size='4x' />
-            </a>
-        
-            <p className='copyright'> Copyright &copy; 2020 Metal Media Fabrication</p>
+                    <Logo/>
+
+                    <Navbar />
+
+                    <br></br>
+                  
+                </div>
+                <div className='lowerhalf'>
+
+                <br></br>
+
+                    <img className='contactimg' src={contactImg}  alt='contact'/>
+
+                    <p className='contactphrase'> When you're in need of a <br></br> dependable Fabrication Company, don’t hesitate.<br></br> <br></br> Contact Metal Media Fabrication today!</p>
+
+                    <h3 className='phone'> Phone: (406)-366-2160</h3>
+
+                    <h3 className="email"> <a href= 'mailto:metalmediafab@gmail.com'> Send an Email</a> </h3>
+
+                </div>
+                
+                <Social/>
 
             </div>
-        
         )
     }
 }
-export default Social 
+export default Contact

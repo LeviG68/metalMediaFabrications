@@ -7,10 +7,10 @@ class Navbar  extends Component {
 
 {
 
-super(props);
-this.state={
-    'NavItemActive': ''
-}
+    super(props);
+        this.state={
+            'NavItemActive': 'Home'
+        }
 }
 
 activeitem=(x)=>
@@ -22,7 +22,7 @@ activeitem=(x)=>
 
     }
 
-    this.setState({'NavItmeId' : x}, ()=>{
+    this.setState({'NavItemId': x}, function(){
         document.getElementById(this.state.NavItemActive).classList.add('active');
 
     });
@@ -33,16 +33,16 @@ activeitem=(x)=>
         return (
 
             <nav>
-            <ul>
-            <Navitems item= "Home" tolink='/' activec={this.activeitem}>
-            </Navitems>
-            <Navitems item= "Fabrications" tolink='/Fabrications' activec={this.activeitem}>
-            </Navitems>
-            <Navitems item= "Metal Art" tolink='/Art' activec={this.activeitem}>
-            </Navitems>
-            <Navitems item= "Contact" tolink='/contact' activec={this.activeitem}>
-            </Navitems>
-            </ul>
+                <ul>
+                <Navitems item= "Home" tolink='/' activec={this.activeitem}>
+                </Navitems>
+                <Navitems item= "Fabrication" tolink='/Fabrications' activec={this.activeitem}>
+                </Navitems>
+                <Navitems item= "Metal Art" tolink='/Art' activec={this.activeitem}>
+                </Navitems>
+                <Navitems item= "Contact" tolink='/Contact' activec={this.activeitem}>
+                </Navitems>
+                </ul>
             </nav>
         )
     }

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Logo from '../content/Logo';
 import About from '../content/About';
 import Navbar from '../components/Navbar';
-import Social from './Contact';
+import Social from './Social';
 
 class Head extends Component {
 
@@ -12,15 +12,17 @@ class Head extends Component {
 
             <div className="logoHomePage">
 
-            <Logo/>
+                <Logo/>
 
-            <Navbar />
+                <Navbar />
 
-            <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
 
-            <About/>
+                <About/>
 
-            <Social/>
+               <Social/>
 
             </div>
             

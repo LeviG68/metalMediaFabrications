@@ -1,63 +1,68 @@
-.App {
-  /* text-align: center; */
-}
 
-/* css for active class */
+/* --desktop: 1200px;
+--laptop: 1024px;
+--tablet: 760px;
+--phone: 480px; */
+
 
 .active {
   font-weight: bolder;
 }
 
 nav ul {
-  font-size: var(--fontsize-nav);
-  /* text-align: right; */
-  /* display: inline; */
-  /* color: white !important; */
   padding: 8px;
+  
 }
 
 nav ul li {
   float: right;
   text-align: center;
   display: inline;
-  padding: 12px;
+  padding: 8px;
   padding-right: 55px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
 }
 
 .headLogo {
+  align-items: center;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  height: 500px;
-  width: 1200px;
+  margin-right: auto; 
+  height: 100%;
+  width: 100% ;
 }
-
+    
 .condiv {
   padding-left: 30px;
   padding-right: 30px;
-  /* background-image: linear-gradient(white, orange); */
+  background-image: linear-gradient(white, orange);
 }
 
 p {
   padding-top: 10px;
   font-size: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #Img {
-  height: 380px;
-  width: 320px;
+  height: 400px;  
+  width: 350px;
   padding: 7px;
+}
+
+.Projects{
+  text-align: center;
+}
+
+.artImages{
+  text-align: center;
 }
 
 .social {
   background: #c7c7c7;
   text-align: center;
   position: center;
-  /* margin-top: 20px; */
-  /* display: flexbox; */
   bottom: 80px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -65,14 +70,15 @@ p {
 
 a.Facebook.social {
   padding-right: 50px;
-  /* font-size: 25px; */
   color: black;
 }
+
 a.Email.social {
   padding-left: 50px;
   padding-right: 50px;
   color: black;
 }
+
 a.Instagram.social {
   padding-left: 50px;
   color: black;
@@ -81,7 +87,168 @@ a.Instagram.social {
 .social :hover {
   color: #ed7802;
 }
-.copyright {
-  font-size: small;
-  padding-top: 10px;
+
+.noHover{
+  pointer-events: none;
+  font-size: medium;
+  padding-top: 12px;
+}
+
+.contactimg {
+  height: 330px;
+  width:  300px;
+  padding-left: 20px;
+  float: left;
+}
+
+.contactphrase{
+  padding-top: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.phone{
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.email{
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black; 
+}
+
+.lowerhalf{
+  background-image: linear-gradient(white, orange);
+}
+
+/* Media queries for tablet size of 760px */
+@media(max-width: 760px) {
+  .headlogo{
+  height: 100%;
+  width: 100%;
+  }
+  p{
+    font-size: 100%;
+  }
+  nav ul li {
+    display: inline;
+    padding: 10px;
+    padding-right: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+  }
+  a.Facebook.social {
+    padding-right: 10px;
+    /* font-size: 25px; */
+    color: black;
+    font-size: 70%;
+  }
+  
+  a.Email.social {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 70%;
+  }
+  
+  a.Instagram.social {
+    padding-left: 10px;
+    color: black; 
+    font-size: 70%;
+  }
+  .contactphrase{
+    padding-top: 20px;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+}
+
+/* Media queries for phone size of 480px */
+@media(max-width: 480px) {
+  .headlogo{
+  height: 100%;
+  width: 100%;
+  }
+
+  p{
+    font-size: 100%;
+  }
+  nav ul li {
+    display: inline;
+    padding: 10px;
+    padding-right: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+  }
+  .social {
+    background: #c7c7c7;
+    text-align: center;
+    position: center;
+    bottom: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: 100%;
+  }
+
+  a.Facebook.social {
+    padding-right: 10px;
+    color: black;
+    font-size: 70%;
+  }
+  
+  a.Email.social {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 70%;
+  }
+  
+  a.Instagram.social {
+    padding-left: 10px;
+    color: black; 
+    font-size: 70%;
+  }
+
+  #Img {
+    height: 100%;  
+    width: 100%;
+    padding: 0px;
+  }
+
+  .contactphrase{
+    padding-top: 20px;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .contactimg {
+    height: 50%;
+    width:  50%;
+    padding-left: 0px;
+    float: left;
+  }
+
+  .phone {
+    padding-bottom: 10px;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .email{
+    padding-bottom: 10px;
+    font-size: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
 }

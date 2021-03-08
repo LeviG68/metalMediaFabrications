@@ -18,6 +18,7 @@ import imga9 from '../images/Art-Images/Alaska Rose.jpg';
 import imga10 from '../images/Art-Images/Metal rose.jpg';
 import imga11 from '../images/Art-Images/Metal roses setup.jpg';
 import imga12 from '../images/Art-Images/2 metal roses.jpg';
+import Social from './Social';
 
 
 
@@ -47,28 +48,29 @@ function App () {
             <br></br>
 
             <SimpleReactLightbox>
-                <Container fluid='md'>
+                <Container fluid='md' className= "artImages">
                     <SRLWrapper options={options}>
                             
                                 
-                                    <img id="Img" src={imga1} alt="Metal Antlers" />
-                                    <img id="Img" src={imga2} alt="Metal Antlers side view" />
-                                    <img id="Img" src={imga3} alt="Garden Bear front view with fish" />
-                                    <img id="Img" src={imga4} alt="Garden Bear head with fish in mouth" />
-                                    <img id="Img" src={imga5} alt="Garden Bear side view" />
-                                    <img id="Img" src={imga6} alt="Fire Pit Ring" />
-                                    <img id="Img" src={imga7} alt="Montana Rose card holder" />
-                                    <img id="Img" src={imga8} alt="Star" />
-                                    <img id="Img" src={imga9} alt="Alaska Rose" />
-                                    <img id="Img" src={imga10} alt="Metal rose without a stem" />
-                                    <img id="Img" src={imga11} alt=" Assebling roses with leaves and stems!" />
-                                    <img id="Img" src={imga12} alt="2 Roses on stands" />
+                                    <img id="Img" src={imga1} alt="" />
+                                    <img id="Img" src={imga2} alt="" />
+                                    <img id="Img" src={imga3} alt="" />
+                                    <img id="Img" src={imga4} alt="" />
+                                    <img id="Img" src={imga5} alt="" />
+                                    <img id="Img" src={imga6} alt="" />
+                                    <img id="Img" src={imga7} alt="" />
+                                    <img id="Img" src={imga8} alt="" />
+                                    <img id="Img" src={imga9} alt="" />
+                                    <img id="Img" src={imga10} alt="" />
+                                    <img id="Img" src={imga11} alt="" />
+                                    <img id="Img" src={imga12} alt="" />
 
 
                             
                     </SRLWrapper>
                 </Container>
             </SimpleReactLightbox>
+            <Social />
         </div>
     )
 }
