@@ -33,14 +33,14 @@ activeitem=(x)=>
         return (
 
             <nav>
-                <ul>
-                <Navitems item= "Home" tolink='/' activec={this.activeitem}>
+                <ul align="right">
+                    <Navitems item= "Home" tolink='/' activec={this.activeitem}>
                 </Navitems>
-                <Navitems item= "Fabrication" tolink='/Fabrications' activec={this.activeitem}>
+                    <Navitems item= "Fabrication" tolink='/Fabrications' activec={this.activeitem}>
                 </Navitems>
-                <Navitems item= "Metal Art" tolink='/Art' activec={this.activeitem}>
+                    <Navitems item= "Metal Art" tolink='/Art' activec={this.activeitem}>
                 </Navitems>
-                <Navitems item= "Contact" tolink='/Contact' activec={this.activeitem}>
+                    <Navitems item= "Contact" tolink='/Contact' activec={this.activeitem}>
                 </Navitems>
                 </ul>
             </nav>
